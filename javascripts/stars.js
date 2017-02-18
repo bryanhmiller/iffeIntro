@@ -6,7 +6,7 @@ var SolarSystem = (function(oldSolarSystem) {
 	};
 	oldSolarSystem.setStars = function(){
 		stars.push(newStar);
-	};
+	}
 
 	return oldSolarSystem;
 })(SolarSystem || {});
